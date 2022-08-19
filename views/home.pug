@@ -1,0 +1,56 @@
+extends base.pug 
+//- extends stands for that we are filling the template inside the base.pug.
+block scripts 
+   script(src='/static/index.js')
+//-    here we are inserting index.js inside , where block scripts is written.
+block style 
+      style 
+        include ../static/style.css 
+block content 
+
+    //- h1 My Site
+    //- p Welcome to my super lame site.
+    section#introSection 
+       //-    | section for picture 
+       div  Welcome to Harry's Dance Academy 
+       div.small  Eat Sleep Dance repeat
+
+    section#missionSection 
+      //-      | section for sponsors 
+      h2  Our Mission
+      div.card 
+           h3 Dance Perfection 
+           div.card-box
+              div.card-img 
+                  img(src="/static/img/222png.png")
+              div.card-content 
+                  p This is the best dance academy of the universe 
+
+
+      div.card 
+           h3 Dance the way you like
+           div.card-box
+              div.card-img 
+                  img(src="/static/img/111png.png")
+              div.card-content 
+                  p This is the best dance academy of the universe 
+
+      div.card 
+           h3 Expert Teaching
+           div.card-box
+              div.card-img 
+                  img(src="/static/img/444png.png")
+              div.card-content 
+                  p This is the best dance academy of the universe 
+
+
+
+    section#sponsorsSection 
+      //-      | section for sponsors 
+      h2  Our Sponsors
+      div#sponsors 
+         img(src="/static/img/logo1.png.png", alt="sponsor image", class="spImage")
+         img(src="/static/img/logo2.png.png", alt="sponsor image", class="spImage")
+         img(src="/static/img/logo4.png.jpg", alt="sponsor image", class="spImage")
+         img(src="/static/img/logo5.png", alt="sponsor image", class="spImage")
+

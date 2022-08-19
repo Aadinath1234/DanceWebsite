@@ -1,0 +1,28 @@
+//- layout.pug
+//- base.pug works as a template where all the blueprit is given and you have to only filled the asked information inside it.
+doctype html
+html
+  head
+    title Harry Dance Academy 
+    block scripts
+    block style 
+  body
+    nav#navbar.top  
+        //- | this  
+        //- when you want to translate this as it is then use pipe infront of it.
+        //- here the class is top and id is navbar. to give multiple class use nav.top.container.variable etc 
+        ul
+           div#logo
+               img(src="/static/img/111png.png")
+               | HDA 
+           li #[a(href="/") Home]
+           li #[a(href="/") About]
+           li #[a(href="/") Services]
+           li #[a(href="/") Class Info]
+           li #[a(href="/") Contact Us]
+          
+
+
+    block content
+    footer#footer 
+        | Copyright © 2019 HarryDanceAcademy.com  | All rights reserved   

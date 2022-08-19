@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&family=DM+Sans&family=Dancing+Script&family=Edu+TAS+Beginner:wght@600&family=Edu+VIC+WA+NT+Beginner&family=Rubik+Dirt&family=Square+Peg&display=swap');
+
+*{
+    margin: 0;
+   box-sizing: border-box;
+    padding: 0;
+}
+
+
+h1{
+   text-align: center;
+   margin: 12px 0;
+}
+
+.container{
+    min-height: 80vh;
+    margin: 43px 0;
+    
+}
+
+.container h1{
+    font-family: 'Rubik Dirt', cursive;
+    font-size: 34px;
+}
+
+
+.myForm{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+}
+
+.myInput{
+   font-size: 16px;
+   width: 40%;
+   padding: 9px;
+   margin: 8px;
+   border: 2px solid rgb(244, 177, 177);
+   border-radius: 12px;
+   outline: none;
+}
+
+.btn{
+    padding: 8px 16px;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+    background: rgb(200, 100, 100);
+    cursor: pointer;
+    outline: none;
+    margin: 26px;
+}

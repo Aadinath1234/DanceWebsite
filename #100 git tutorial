@@ -1,0 +1,21 @@
+# git and github is different 
+# git is version controller which helps to maintain softwares.
+# github is gives webhosting using git.
+# github cannot work without git.
+# command in github in git:
+   #1: touch .gitignore
+   #1.1: git config --global user.name aadinath
+   # 1.2: git config --global user.email aadeshsatpute375@gmail.com
+   
+   #2: we initialized git by command: git init.
+   #3: git add .
+   #4: git commit -m "Initial Commit"
+   #5: git status 
+   #6: now we used the key which we have generated (ssh key): $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com" at place of your email we have written our email address which is aadeshsatpute375@gmail.com
+   # tail < path to id_rsa.pub>  , add this key to your github account
+   # git remote add origin  git@github.com:Aadinath1234/DanceWebsite.git , this you will get on your github account.onclicking on ssh
+   # git push origin master
+   your project will be get uploaded.
+   
+   
+
